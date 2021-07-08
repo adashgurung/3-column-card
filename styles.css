@@ -49,6 +49,12 @@ p {
   cursor: pointer;
 }
 
+.button1:hover {
+  background-color: var(--bright-orange);
+  color: var(--very-light-gray);
+  border: 1.5px solid white;
+}
+
 .button2 {
   width: 125px;
   padding: 15px;
@@ -61,6 +67,12 @@ p {
   margin-top: 20px;
 }
 
+.button2:hover {
+  background-color: var(--dark-cyan);
+  color: var(--very-light-gray);
+  border: 1.5px solid white;
+}
+
 .button3 {
   width: 125px;
   padding: 15px;
@@ -71,6 +83,12 @@ p {
   font-size: 15px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.button3:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-gray);
+  border: 1.5px solid white;
 }
 
 body {
@@ -116,6 +134,7 @@ object {
   border-radius: 0 0 10px 10px;
 }
 
+/* if the screen is bigger than 700px */
 @media (min-width: 700px) {
   .container {
     min-height: 100vh;
@@ -123,6 +142,7 @@ object {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 0 50px 0 50px;
   }
 
   p {
